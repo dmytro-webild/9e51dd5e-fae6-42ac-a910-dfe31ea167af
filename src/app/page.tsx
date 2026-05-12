@@ -64,7 +64,7 @@ export default function LandingPage() {
   <div id="menu" data-section="menu">
       <ProductCardOne
       animationType="slide-up"
-      textboxLayout="split"
+      textboxLayout="split-actions"
       gridVariant="uniform-all-items-equal"
       useInvertedBackground={true}
       products={[
@@ -77,6 +77,7 @@ export default function LandingPage() {
       ]}
       title="Signature Pizza Selection"
       description="Our most popular handmade pizzas, crafted with passion."
+      buttons={[{ text: "See Full Menu", href: "#menu" }]}
     />
   </div>
 
